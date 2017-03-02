@@ -1,0 +1,4 @@
+a) A useful set of APIs is available in the SQLiteOpenHelper class. When you use this class to obtain references to your database, the system performs the potentially long-running operations of creating and updating the database only when needed and not during app startup.
+It  create a subclass that overrides the onCreate(), onUpgrade() and onOpen() callback methods. 
+b)onUpgrade is basically  used for handling new db changes(could be new columns addition,table addition) for any new version of your app.
+c)Use Table Layout with Cursor Adapter.
